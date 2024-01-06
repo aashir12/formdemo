@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="visa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Fira+Mono&family=Mukta:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="boycott">#BoyCott Israeli Products</h1>
+    <div class="main">
+        <div class="lftWala">
+            <h2 class="topHeading">Checkout</h2>
+            <h6 class="OrderName">ORDER #0101</h6>
+            <div class="lister">
+                <div class="list">
+                    <img src="https://cdn.shopify.com/s/files/1/0572/1187/9601/products/PakolaVimtoDrink500ml_800x.png?v=1628071752" alt="">
+                    <h6>Pakola Vimto</h6>
+                </div>
+                <div class="list">
+                    <img src="./images/OIP-removebg-preview.png" alt="">
+                    <h6>Peshawari Kheri</h6>
+                </div>
+                <div class="list">
+                    <img src="./images/th-removebg-preview.png" alt="">
+                    <h6>Chitrali Topi</h6>
+                </div>
+            </div>
+            <div class="bill">
+                <div class="ship">
+                    <h6 class="title">Shipping</h6>
+                <h6 class="amount">$9.50</h6>
+                </div>
+                <div class="total">
+                    <h6 class="title">TOTAL</h6>
+                    <h2 class="amount">$ 167.50</h2>
+                </div>
+            </div>
+        </div>
+        <div class="rftWala">
+            <h2 class="topHeading">Payments</h2>
+            <img src="./images/606-6068640_amex-and-swipii-nab-platinum-visa-debit-card-removebg-preview.png" alt="">
+            <div class="inputer">
+             <form action="">
+                <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" 
+                autocomplete="cc-number" maxlength="19" 
+                placeholder="xxxx xxxx xxxx xxxx" required class="long">
+                <div class="twoInputs">
+                    <input type="date">
+                    <input type="tel"  required maxlength="4" placeholder="PIN">
+                </div>
+                <br>
+                <button>Purchase</button>
+             </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
